@@ -1,0 +1,19 @@
+CREACIÓN Y CONFIGURACIÓN DE REPOSITORIO
+git init
+git status -s
+git add .
+git commit -m "(etiqueta del commit)"
+
+git remote add origin (link) 
+git branch -M main
+git push -u origin main
+
+POSTERIORES COMMITS
+
+(Previa actualización)
+git pull --all
+
+git status -s
+git add .
+git commit -m "(etiqueta del commit)"
+git push
